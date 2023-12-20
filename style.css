@@ -1,0 +1,325 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #FFFFFF;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.contanir {
+    background-color: #F9FBFA;
+    display: flex;
+    height: 50vh;
+    justify-content: center;
+    justify-items: center;
+    margin: 10% 0%;
+}
+
+img {
+    background-position: center;
+    width: 700px;
+    height: 50vh;
+    margin-left: 30px;
+}
+
+h1 {
+    margin-top: 100px;
+    margin-bottom: 10px;
+}
+
+p {
+    width: 73%;
+    font-size: 20px;
+}
+
+.box {
+    margin-left: 20px;
+}
+
+button {
+    background-color: #6AB7BD;
+    border: none;
+    color: #DCFEFF;
+    padding: 13px 27px;
+    margin: 40px 0px;
+    font-size: 16px;
+}
+
+button:hover {
+    color: #FFFFFF;
+    background-color: #d6249f;
+    border-radius: 7px;
+    transition: all .3s linear;
+}
+
+button:active {
+    padding: 15px 30px;
+}
+
+.ikonkalar {
+    margin-top: 450px;
+    margin-right: 40px;
+    position: relative;
+    right: 50%;
+}
+
+.icon {
+    display: flex;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+
+.ikonsinsta {
+    margin: 0px 10px;
+    font-size: 25px;
+}
+
+.ikonsinsta:hover {
+    background: radial-gradient(circle at 30% 107%, #fdf497 10%, #fdf497 7%, #fd5949 50%, #d6249f 70%, #285AEB 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 24px;
+
+}
+
+.ikonstwit {
+    margin: 0px 10px;
+    font-size: 24px;
+
+}
+
+.ikonstwit:hover {
+    background: url(./image/twitter-hex-colors-gradient-background.png);
+    color: white;
+}
+
+.ikonsyout {
+    margin: 0px 10px;
+    font-size: 24px;
+}
+
+.ikonsyout:hover {
+    background-color: red;
+    color: white;
+}
+
+.ikonsface {
+    margin: 0px 10px;
+    font-size: 24px;
+
+}
+
+.ikonsface:hover {
+    background: #3A5795;
+    color: white;
+    background: linear-gradient(to bottom, #3A5795 0%, #2B4886 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #3A5795), color-stop(100%, #2B4886));
+    background: -webkit-linear-gradient(top, #3A5795 0%, #2B4886 100%);
+    background: -moz-linear-gradient(top, #3A5795 0%, #2B4886 100%);
+    background: -o-linear-gradient(top, #3A5795 0%, #2B4886 100%);
+    background: -ms-linear-gradient(top, #3A5795 0%, #2B4886 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#3A5795', endColorstr='#2B4886', GradientType=0);
+    border: 1px solid #1C3977;
+    text-shadow: 0 1px 0 #4966A4;
+    -webkit-text-shadow: 0 1px 0 #4966A4;
+    -moz-text-shadow: 0 1px 0 #4966A4;
+    box-shadow: inset 0 1px 0 #4966A4;
+    -webkit-box-shadow: inset 0 1px 0 #4966A4;
+    -moz-box-shadow: inset 0 1px 0 #4966A4;
+    border-radius: 50%;
+}
+
+.ikonsinsta:active {
+    padding: 1px;
+}
+
+.ikonstwit:active {
+    padding: 1px;
+}
+
+.ikonsyout:active {
+    padding: 1.5px;
+}
+
+.ikonsface:active {
+    padding: .5px;
+}
+
+
+
+
+
+
+@media only screen and (min-width: 320px) and (max-width:643px) {
+    .contanir {
+        display: grid;
+        height: 50vh;
+        justify-content: center;
+        justify-items: center;
+
+    }
+
+    img {
+        width: 400px;
+        height: 300px;
+
+    }
+
+    .box {
+        width: 400px;
+        height: 500px;
+        background-color: #F9FBFA;
+
+    }
+
+    p {
+        width: 350px;
+        margin-left: 30px;
+    }
+
+    h1 {
+        margin-top: 80px;
+        margin-left: 100px;
+    }
+
+    button {
+        background-color: #6AB7BD;
+        border: none;
+        color: #DCFEFF;
+        padding: 13px 27px;
+        margin: 40px 20px;
+        font-size: 16px;
+        margin-left: 30px;
+    }
+
+    .ikonkalar {
+        margin-right: -550px;
+
+    }
+
+    .icon {
+        display: flex;
+        margin-bottom: 15px;
+        cursor: pointer;
+        margin-top: -525px;
+    }
+
+
+
+}
+
+@media only screen and (min-width: 644px) and (max-width: 959px) {
+    .contanir {
+        display: grid;
+        height: 50vh;
+        justify-content: center;
+        justify-items: center;
+        background-size: cover;
+
+    }
+
+    img {
+        width: 600px;
+        height: 300px;
+
+    }
+
+    .box {
+        width: 600px;
+        height: 600px;
+        background-color: #F9FBFA;
+
+    }
+
+    p {
+        width: 550px;
+        margin-left: 30px;
+    }
+
+    h1 {
+        margin-top: 80px;
+        margin-left: 100px;
+    }
+
+    button {
+        background-color: #6AB7BD;
+        border: none;
+        color: #DCFEFF;
+        padding: 13px 27px;
+        margin: 40px 20px;
+        font-size: 16px;
+        margin-left: 30px;
+    }
+
+    .ikonkalar {
+        margin-right: -630px;
+
+    }
+
+    .icon {
+        display: flex;
+        margin-bottom: 15px;
+        cursor: pointer;
+        margin-top: -705px;
+    }
+
+}
+
+/* @media only screen and (min-width: 960px) and (max-width: 1100px) {
+    .contanir {
+        display: grid;
+        height: 50vh;
+        justify-content: center;
+        justify-items: center;
+        
+
+    }
+
+    img {
+        width: 600px;
+        height: 300px;
+
+    }
+
+    .box {
+        width: 600px;
+        height: 600px;
+        background-color: #F9FBFA;
+
+    }
+
+    p {
+        width: 550px;
+        margin-left: 30px;
+    }
+
+    h1 {
+        margin-top: 80px;
+        margin-left: 100px;
+    }
+
+    button {
+        background-color: #6AB7BD;
+        border: none;
+        color: #DCFEFF;
+        padding: 13px 27px;
+        margin: 40px 20px;
+        font-size: 16px;
+        margin-left: 30px;
+    }
+    .ikonkalar {
+        margin-right: -630px;
+        
+    }
+    
+    .icon {
+        display: flex;
+        margin-bottom: 15px;
+        cursor: pointer;
+        margin-top: -705px;
+    }
+} */
